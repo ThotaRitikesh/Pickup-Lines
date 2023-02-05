@@ -1,0 +1,233 @@
+*{  
+    margin: 0% auto;
+    padding: 0;
+    /* overflow: hidden; */
+}
+body{
+    background-image: url("./img/Valentines\ day\ red\ hearts\ background.jpg");
+
+}
+#btn{
+    border: 1px solid black;
+    position:absolute;
+    color: white;
+    height: 50px;
+    width: 200px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 150px;
+    background-image: url("./img/Valentines\ day\ red\ hearts\ background.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+}
+#p{
+    margin-bottom: 100px;
+    margin: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: black !important;
+}
+
+#main1{
+ display: flex;
+ justify-content: space-around;
+ align-items:center;
+ flex-wrap: wrap;
+ position:absolute;
+ width: 500px;
+ background-color:rgba(0, 0, 0, 0.5) ;
+ height: 300px;
+ left: 30%;
+ top: 30%;
+ border-radius: 20px;
+
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+ 
+    #btn{
+        height: 30px;
+        width: 100px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 30px;
+        margin-top: 100px;
+        font-size: 7px;
+    }
+
+    #p{
+        margin-bottom: 100px;
+        font-size: small;
+        font-weight: bolder;
+        font-style: italic;
+        background-color: black !important;
+    }
+
+    #main1{
+        width: 250px;
+        height: 150px;
+        left: 19%;
+        top: 14%;
+   
+       }
+    
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (max-width : 321px) {
+/* Styles */
+
+#btn{
+    height: 30px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 7px;
+}
+
+#p{
+    margin-bottom: 100px;
+    font-size: small;
+    font-weight: bolder;
+    font-style: italic;
+    background-color: black !important;
+}
+
+#main1{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 8%;
+    top: 14%;
+
+   }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+#btn{
+    height: 35px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+#p{
+    margin-bottom: 100px;
+    font-size: large;
+    font-style: italic;
+}
+
+#main1{
+    width: 350px;
+    height: 200px;
+    left: 29%;
+    top: 16%;
+
+   }
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+#btn{
+    height: 35px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+#p{
+    margin-bottom: 100px;
+    font-size: large;
+    font-style: italic;
+}
+
+#main1{
+    width: 350px;
+    height: 200px;
+    left: 35%;
+    top: 16%;
+
+   }
+}
+
+@media only screen 
+and (min-device-width : 479px) 
+and (max-device-width : 1224px) {
+/* Styles */
+#btn{
+    height: 35px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+#p{
+    margin-bottom: 100px;
+    font-size: large;
+    font-style: italic;
+}
+
+#main1{
+    width: 350px;
+    height: 200px;
+    left: 29%;
+    top: 16%;
+
+   }
+}
+
+@media only screen 
+and (min-device-width : 479px) 
+and (max-device-width : 650px) {
+/* Styles */
+#btn{
+    height: 35px;
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    font-size: 10px;
+}
+
+#p{
+    margin-bottom: 100px;
+    font-size: large;
+    font-style: italic;
+}
+
+#main1{
+    width: 250px;
+    height: 150px;
+    left: 29%;
+    top: 16%;
+
+   }
+}
